@@ -1,0 +1,5 @@
+.DS_Store
+pedidos.csv
+ventas_lineas.csv
+__pycache__/
+*.pyc
