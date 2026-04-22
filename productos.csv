@@ -1,0 +1,511 @@
+sku,categoria,subcategoria,nombre_articulo,temporada_fuerte,pvp_bruto_ref_eur,iva_pct,coste_produccion_eur,margen_objetivo_pct
+SKU0001,Ropa Mujer,Blazer,Blazer Nordic 001,Primavera,42.99,0.21,11.66,0.672
+SKU0002,Ropa Mujer,Vestido,Vestido Basic 002,Otono,48.99,0.21,12.14,0.7
+SKU0003,Ropa Mujer,Falda,Falda Soft 003,Verano,21.99,0.21,7.39,0.593
+SKU0004,Ropa Mujer,Abrigo,Abrigo Urban 004,Primavera,50.99,0.21,13.39,0.682
+SKU0005,Ropa Mujer,Camiseta,Camiseta Nordic 005,Todo el ano,15.99,0.21,6.51,0.508
+SKU0006,Ropa Mujer,Vaquero,Vaquero Trend 006,Todo el ano,40.99,0.21,6.31,0.814
+SKU0007,Ropa Mujer,Blazer,Blazer Weekender 007,Primavera,30.99,0.21,7.84,0.694
+SKU0008,Ropa Mujer,Blazer,Blazer Basic 008,Primavera,29.99,0.21,6.56,0.735
+SKU0009,Ropa Mujer,Camiseta,Camiseta Soft 009,Verano,13.99,0.21,3.11,0.731
+SKU0010,Ropa Mujer,Vestido,Vestido Modern 010,Todo el ano,41.99,0.21,8.02,0.769
+SKU0011,Ropa Mujer,Vestido,Vestido Basic 011,Todo el ano,22.99,0.21,3.41,0.821
+SKU0012,Ropa Mujer,Vaquero,Vaquero Soft 012,Todo el ano,25.99,0.21,10.46,0.513
+SKU0013,Ropa Mujer,Jersey,Jersey Weekender 013,Verano,27.99,0.21,8.56,0.63
+SKU0014,Ropa Mujer,Falda,Falda Comfort 014,Todo el ano,27.99,0.21,5.02,0.783
+SKU0015,Ropa Mujer,Vestido,Vestido Essential 015,Primavera,29.99,0.21,4.13,0.834
+SKU0016,Ropa Mujer,Pantalon,Pantalon Urban 016,Invierno,22.99,0.21,6.07,0.68
+SKU0017,Ropa Mujer,Jersey,Jersey Studio 017,Otono,21.99,0.21,3.13,0.828
+SKU0018,Ropa Mujer,Camiseta,Camiseta Urban 018,Verano,11.99,0.21,4.8,0.516
+SKU0019,Ropa Mujer,Falda,Falda Studio 019,Primavera,20.99,0.21,2.65,0.847
+SKU0020,Ropa Mujer,Jersey,Jersey Trend 020,Invierno,34.99,0.21,6.88,0.762
+SKU0021,Ropa Mujer,Blazer,Blazer Trend 021,Otono,56.99,0.21,8.82,0.813
+SKU0022,Ropa Mujer,Pantalon,Pantalon Studio 022,Todo el ano,28.99,0.21,9.33,0.611
+SKU0023,Ropa Mujer,Vaquero,Vaquero Essential 023,Primavera,39.99,0.21,8.87,0.732
+SKU0024,Ropa Mujer,Vaquero,Vaquero Move 024,Invierno,29.99,0.21,11.57,0.533
+SKU0025,Ropa Mujer,Blazer,Blazer Modern 025,Primavera,51.99,0.21,17.54,0.592
+SKU0026,Ropa Mujer,Pantalon,Pantalon Weekender 026,Primavera,38.99,0.21,13.39,0.584
+SKU0027,Ropa Mujer,Vestido,Vestido Modern 027,Otono,23.99,0.21,4.15,0.791
+SKU0028,Ropa Mujer,Camiseta,Camiseta Nordic 028,Todo el ano,10.99,0.21,3.97,0.563
+SKU0029,Ropa Mujer,Camiseta,Camiseta Studio 029,Todo el ano,18.99,0.21,3.04,0.806
+SKU0030,Ropa Mujer,Abrigo,Abrigo Soft 030,Primavera,44.99,0.21,14.55,0.609
+SKU0031,Ropa Mujer,Blazer,Blazer Basic 031,Verano,52.99,0.21,7.0,0.84
+SKU0032,Ropa Mujer,Vaquero,Vaquero Essential 032,Primavera,32.99,0.21,12.26,0.55
+SKU0033,Ropa Mujer,Pantalon,Pantalon Soft 033,Primavera,15.99,0.21,5.55,0.58
+SKU0034,Ropa Mujer,Vestido,Vestido Weekender 034,Otono,23.99,0.21,5.21,0.737
+SKU0035,Ropa Mujer,Vestido,Vestido Comfort 035,Otono,23.99,0.21,6.4,0.677
+SKU0036,Ropa Mujer,Pantalon,Pantalon Urban 036,Otono,32.99,0.21,8.09,0.703
+SKU0037,Ropa Mujer,Camiseta,Camiseta Studio 037,Verano,11.99,0.21,2.17,0.781
+SKU0038,Ropa Mujer,Vestido,Vestido Nordic 038,Otono,41.99,0.21,8.38,0.759
+SKU0039,Ropa Mujer,Pantalon,Pantalon Move 039,Primavera,18.99,0.21,7.17,0.543
+SKU0040,Ropa Mujer,Abrigo,Abrigo Heritage 040,Verano,76.99,0.21,22.96,0.639
+SKU0041,Ropa Mujer,Vestido,Vestido Modern 041,Verano,28.99,0.21,7.88,0.671
+SKU0042,Ropa Mujer,Falda,Falda Urban 042,Invierno,24.99,0.21,3.42,0.834
+SKU0043,Ropa Mujer,Abrigo,Abrigo Weekender 043,Otono,48.99,0.21,7.14,0.824
+SKU0044,Ropa Mujer,Pantalon,Pantalon Nordic 044,Todo el ano,15.99,0.21,4.04,0.694
+SKU0045,Ropa Mujer,Falda,Falda Soft 045,Otono,24.99,0.21,9.56,0.537
+SKU0046,Ropa Mujer,Falda,Falda Basic 046,Verano,15.99,0.21,4.67,0.647
+SKU0047,Ropa Mujer,Vestido,Vestido Basic 047,Otono,49.99,0.21,12.04,0.709
+SKU0048,Ropa Mujer,Pantalon,Pantalon Weekender 048,Otono,38.99,0.21,7.04,0.782
+SKU0049,Ropa Mujer,Abrigo,Abrigo Trend 049,Verano,56.99,0.21,10.61,0.775
+SKU0050,Ropa Mujer,Camiseta,Camiseta Heritage 050,Otono,8.99,0.21,3.43,0.538
+SKU0051,Ropa Mujer,Pantalon,Pantalon Soft 051,Invierno,35.99,0.21,6.58,0.779
+SKU0052,Ropa Mujer,Camiseta,Camiseta Weekender 052,Invierno,12.99,0.21,3.37,0.686
+SKU0053,Ropa Mujer,Blazer,Blazer Urban 053,Otono,46.99,0.21,7.62,0.804
+SKU0054,Ropa Mujer,Abrigo,Abrigo Urban 054,Verano,62.99,0.21,18.51,0.644
+SKU0055,Ropa Mujer,Abrigo,Abrigo Move 055,Todo el ano,52.99,0.21,15.37,0.649
+SKU0056,Ropa Mujer,Blazer,Blazer Modern 056,Otono,48.99,0.21,7.95,0.804
+SKU0057,Ropa Mujer,Vestido,Vestido Move 057,Todo el ano,33.99,0.21,11.61,0.587
+SKU0058,Ropa Mujer,Jersey,Jersey Weekender 058,Todo el ano,20.99,0.21,4.14,0.761
+SKU0059,Ropa Mujer,Camiseta,Camiseta Weekender 059,Otono,22.99,0.21,8.8,0.537
+SKU0060,Ropa Mujer,Camiseta,Camiseta Soft 060,Verano,9.99,0.21,2.41,0.708
+SKU0061,Ropa Mujer,Abrigo,Abrigo Modern 061,Invierno,41.99,0.21,7.33,0.789
+SKU0062,Ropa Mujer,Vestido,Vestido Trend 062,Primavera,28.99,0.21,10.77,0.55
+SKU0063,Ropa Mujer,Jersey,Jersey Trend 063,Verano,34.99,0.21,12.78,0.558
+SKU0064,Ropa Mujer,Blazer,Blazer Nordic 064,Verano,35.99,0.21,13.27,0.554
+SKU0065,Ropa Mujer,Jersey,Jersey Nordic 065,Invierno,18.99,0.21,7.73,0.507
+SKU0066,Ropa Mujer,Jersey,Jersey Heritage 066,Primavera,17.99,0.21,6.53,0.561
+SKU0067,Ropa Mujer,Jersey,Jersey Weekender 067,Invierno,17.99,0.21,4.36,0.707
+SKU0068,Ropa Mujer,Pantalon,Pantalon Heritage 068,Invierno,32.99,0.21,9.88,0.638
+SKU0069,Ropa Mujer,Camiseta,Camiseta Modern 069,Otono,13.99,0.21,3.74,0.677
+SKU0070,Ropa Mujer,Vestido,Vestido Modern 070,Primavera,46.99,0.21,7.85,0.798
+SKU0071,Ropa Mujer,Pantalon,Pantalon Nordic 071,Primavera,16.99,0.21,6.13,0.564
+SKU0072,Ropa Mujer,Vestido,Vestido Nordic 072,Todo el ano,26.99,0.21,9.21,0.587
+SKU0073,Ropa Mujer,Falda,Falda Essential 073,Otono,22.99,0.21,6.73,0.646
+SKU0074,Ropa Mujer,Pantalon,Pantalon Trend 074,Otono,16.99,0.21,5.18,0.631
+SKU0075,Ropa Mujer,Camiseta,Camiseta Weekender 075,Verano,17.99,0.21,6.9,0.536
+SKU0076,Ropa Mujer,Pantalon,Pantalon Comfort 076,Primavera,36.99,0.21,14.73,0.518
+SKU0077,Ropa Mujer,Pantalon,Pantalon Move 077,Otono,38.99,0.21,14.99,0.535
+SKU0078,Ropa Mujer,Abrigo,Abrigo Modern 078,Verano,73.99,0.21,11.26,0.816
+SKU0079,Ropa Mujer,Jersey,Jersey Modern 079,Primavera,35.99,0.21,6.52,0.781
+SKU0080,Ropa Mujer,Blazer,Blazer Nordic 080,Otono,52.99,0.21,12.05,0.725
+SKU0081,Ropa Mujer,Abrigo,Abrigo Nordic 081,Todo el ano,70.99,0.21,26.57,0.547
+SKU0082,Ropa Mujer,Vestido,Vestido Heritage 082,Verano,35.99,0.21,9.52,0.68
+SKU0083,Ropa Mujer,Falda,Falda Urban 083,Otono,27.99,0.21,7.82,0.662
+SKU0084,Ropa Mujer,Camiseta,Camiseta Urban 084,Todo el ano,14.99,0.21,3.42,0.724
+SKU0085,Ropa Mujer,Camiseta,Camiseta Modern 085,Primavera,12.99,0.21,4.84,0.549
+SKU0086,Ropa Mujer,Camiseta,Camiseta Heritage 086,Otono,16.99,0.21,4.97,0.646
+SKU0087,Ropa Mujer,Abrigo,Abrigo Comfort 087,Primavera,45.99,0.21,14.12,0.629
+SKU0088,Ropa Mujer,Vestido,Vestido Trend 088,Otono,30.99,0.21,9.87,0.615
+SKU0089,Ropa Mujer,Camiseta,Camiseta Essential 089,Verano,14.99,0.21,3.22,0.74
+SKU0090,Ropa Mujer,Vestido,Vestido Basic 090,Verano,28.99,0.21,4.02,0.832
+SKU0091,Ropa Mujer,Camiseta,Camiseta Heritage 091,Primavera,23.99,0.21,6.58,0.668
+SKU0092,Ropa Mujer,Abrigo,Abrigo Trend 092,Invierno,50.99,0.21,13.17,0.687
+SKU0093,Ropa Mujer,Vestido,Vestido Trend 093,Todo el ano,45.99,0.21,10.32,0.728
+SKU0094,Ropa Mujer,Vestido,Vestido Urban 094,Verano,44.99,0.21,11.66,0.686
+SKU0095,Ropa Mujer,Pantalon,Pantalon Nordic 095,Invierno,31.99,0.21,10.55,0.601
+SKU0096,Ropa Mujer,Jersey,Jersey Modern 096,Verano,30.99,0.21,10.99,0.571
+SKU0097,Ropa Mujer,Vestido,Vestido Essential 097,Todo el ano,40.99,0.21,6.73,0.801
+SKU0098,Ropa Mujer,Camiseta,Camiseta Heritage 098,Invierno,10.99,0.21,2.59,0.715
+SKU0099,Ropa Mujer,Camiseta,Camiseta Soft 099,Todo el ano,9.99,0.21,2.03,0.754
+SKU0100,Ropa Mujer,Vaquero,Vaquero Move 100,Verano,22.99,0.21,3.28,0.828
+SKU0101,Ropa Mujer,Vaquero,Vaquero Move 101,Otono,23.99,0.21,3.26,0.836
+SKU0102,Ropa Mujer,Abrigo,Abrigo Weekender 102,Otono,71.99,0.21,17.39,0.708
+SKU0103,Ropa Mujer,Pantalon,Pantalon Comfort 103,Todo el ano,34.99,0.21,6.41,0.778
+SKU0104,Ropa Mujer,Vaquero,Vaquero Comfort 104,Primavera,43.99,0.21,14.95,0.589
+SKU0105,Ropa Mujer,Blazer,Blazer Soft 105,Verano,45.99,0.21,17.74,0.533
+SKU0106,Ropa Mujer,Abrigo,Abrigo Trend 106,Otono,62.99,0.21,22.91,0.56
+SKU0107,Ropa Mujer,Vestido,Vestido Basic 107,Todo el ano,36.99,0.21,9.16,0.7
+SKU0108,Ropa Mujer,Pantalon,Pantalon Modern 108,Verano,26.99,0.21,7.07,0.683
+SKU0109,Ropa Mujer,Camiseta,Camiseta Heritage 109,Verano,21.99,0.21,4.0,0.78
+SKU0110,Ropa Mujer,Vaquero,Vaquero Basic 110,Primavera,32.99,0.21,7.91,0.71
+SKU0111,Ropa Mujer,Vestido,Vestido Move 111,Primavera,48.99,0.21,18.55,0.542
+SKU0112,Ropa Mujer,Pantalon,Pantalon Soft 112,Primavera,18.99,0.21,7.37,0.531
+SKU0113,Ropa Mujer,Pantalon,Pantalon Basic 113,Otono,31.99,0.21,9.35,0.647
+SKU0114,Ropa Mujer,Jersey,Jersey Trend 114,Todo el ano,31.99,0.21,7.01,0.735
+SKU0115,Ropa Mujer,Camiseta,Camiseta Soft 115,Otono,13.99,0.21,2.15,0.814
+SKU0116,Ropa Mujer,Falda,Falda Nordic 116,Invierno,26.99,0.21,9.04,0.595
+SKU0117,Ropa Mujer,Blazer,Blazer Soft 117,Todo el ano,37.99,0.21,12.24,0.61
+SKU0118,Ropa Mujer,Abrigo,Abrigo Urban 118,Todo el ano,42.99,0.21,15.93,0.552
+SKU0119,Ropa Mujer,Vestido,Vestido Heritage 119,Invierno,48.99,0.21,14.04,0.653
+SKU0120,Ropa Mujer,Jersey,Jersey Soft 120,Invierno,23.99,0.21,4.85,0.755
+SKU0121,Ropa Mujer,Jersey,Jersey Weekender 121,Verano,27.99,0.21,3.99,0.828
+SKU0122,Ropa Mujer,Jersey,Jersey Trend 122,Primavera,31.99,0.21,8.78,0.668
+SKU0123,Ropa Mujer,Camiseta,Camiseta Nordic 123,Invierno,14.99,0.21,1.92,0.845
+SKU0124,Ropa Mujer,Vestido,Vestido Studio 124,Invierno,41.99,0.21,5.8,0.833
+SKU0125,Ropa Mujer,Camiseta,Camiseta Weekender 125,Invierno,10.99,0.21,1.84,0.798
+SKU0126,Ropa Mujer,Vestido,Vestido Move 126,Primavera,38.99,0.21,14.74,0.543
+SKU0127,Ropa Mujer,Pantalon,Pantalon Nordic 127,Primavera,29.99,0.21,6.44,0.74
+SKU0128,Ropa Mujer,Camiseta,Camiseta Basic 128,Invierno,8.99,0.21,2.53,0.659
+SKU0129,Ropa Mujer,Camiseta,Camiseta Move 129,Otono,22.99,0.21,7.54,0.603
+SKU0130,Ropa Mujer,Jersey,Jersey Trend 130,Verano,25.99,0.21,7.41,0.655
+SKU0131,Ropa Mujer,Camiseta,Camiseta Soft 131,Verano,13.99,0.21,2.06,0.821
+SKU0132,Ropa Mujer,Vaquero,Vaquero Modern 132,Invierno,39.99,0.21,15.25,0.539
+SKU0133,Ropa Mujer,Jersey,Jersey Urban 133,Invierno,35.99,0.21,5.72,0.808
+SKU0134,Ropa Mujer,Pantalon,Pantalon Urban 134,Otono,22.99,0.21,3.93,0.793
+SKU0135,Ropa Mujer,Jersey,Jersey Comfort 135,Verano,18.99,0.21,2.36,0.85
+SKU0136,Ropa Mujer,Camiseta,Camiseta Trend 136,Invierno,19.99,0.21,4.5,0.728
+SKU0137,Ropa Mujer,Vaquero,Vaquero Modern 137,Primavera,22.99,0.21,3.53,0.814
+SKU0138,Ropa Mujer,Vestido,Vestido Basic 138,Todo el ano,20.99,0.21,7.21,0.584
+SKU0139,Ropa Mujer,Blazer,Blazer Basic 139,Primavera,30.99,0.21,5.84,0.772
+SKU0140,Ropa Mujer,Camiseta,Camiseta Soft 140,Verano,11.99,0.21,1.8,0.819
+SKU0141,Ropa Hombre,Camisa,Camisa Weekender 001,Invierno,28.99,0.21,6.06,0.747
+SKU0142,Ropa Hombre,Camiseta,Camiseta Comfort 002,Verano,14.99,0.21,3.42,0.724
+SKU0143,Ropa Hombre,Camiseta,Camiseta Weekender 003,Primavera,8.99,0.21,3.17,0.573
+SKU0144,Ropa Hombre,Camiseta,Camiseta Urban 004,Invierno,16.99,0.21,6.22,0.557
+SKU0145,Ropa Hombre,Camisa,Camisa Basic 005,Invierno,18.99,0.21,3.25,0.793
+SKU0146,Ropa Hombre,Jersey,Jersey Essential 006,Invierno,36.99,0.21,9.34,0.695
+SKU0147,Ropa Hombre,Pantalon,Pantalon Essential 007,Invierno,36.99,0.21,4.69,0.847
+SKU0148,Ropa Hombre,Jersey,Jersey Move 008,Todo el ano,20.99,0.21,5.95,0.657
+SKU0149,Ropa Hombre,Camiseta,Camiseta Nordic 009,Invierno,14.99,0.21,5.85,0.528
+SKU0150,Ropa Hombre,Jersey,Jersey Urban 010,Verano,32.99,0.21,9.49,0.652
+SKU0151,Ropa Hombre,Vaquero,Vaquero Essential 011,Verano,31.99,0.21,11.82,0.553
+SKU0152,Ropa Hombre,Jersey,Jersey Basic 012,Todo el ano,21.99,0.21,3.32,0.817
+SKU0153,Ropa Hombre,Abrigo,Abrigo Move 013,Todo el ano,37.99,0.21,13.14,0.581
+SKU0154,Ropa Hombre,Jersey,Jersey Basic 014,Otono,23.99,0.21,6.51,0.672
+SKU0155,Ropa Hombre,Camiseta,Camiseta Basic 015,Primavera,17.99,0.21,4.87,0.673
+SKU0156,Ropa Hombre,Pantalon,Pantalon Heritage 016,Invierno,19.99,0.21,6.85,0.585
+SKU0157,Ropa Hombre,Camiseta,Camiseta Modern 017,Todo el ano,20.99,0.21,4.8,0.723
+SKU0158,Ropa Hombre,Sudadera,Sudadera Urban 018,Primavera,28.99,0.21,6.36,0.735
+SKU0159,Ropa Hombre,Abrigo,Abrigo Modern 019,Primavera,65.99,0.21,26.16,0.52
+SKU0160,Ropa Hombre,Camisa,Camisa Urban 020,Primavera,22.99,0.21,5.91,0.689
+SKU0161,Ropa Hombre,Jersey,Jersey Heritage 021,Primavera,24.99,0.21,4.22,0.796
+SKU0162,Ropa Hombre,Camiseta,Camiseta Nordic 022,Verano,15.99,0.21,3.05,0.769
+SKU0163,Ropa Hombre,Abrigo,Abrigo Weekender 023,Primavera,69.99,0.21,18.7,0.677
+SKU0164,Ropa Hombre,Camiseta,Camiseta Heritage 024,Verano,21.99,0.21,5.35,0.705
+SKU0165,Ropa Hombre,Pantalon,Pantalon Heritage 025,Todo el ano,36.99,0.21,11.64,0.619
+SKU0166,Ropa Hombre,Abrigo,Abrigo Basic 026,Todo el ano,55.99,0.21,14.53,0.686
+SKU0167,Ropa Hombre,Vaquero,Vaquero Trend 027,Invierno,22.99,0.21,6.85,0.639
+SKU0168,Ropa Hombre,Camisa,Camisa Nordic 028,Todo el ano,33.99,0.21,7.84,0.721
+SKU0169,Ropa Hombre,Camiseta,Camiseta Heritage 029,Todo el ano,10.99,0.21,3.46,0.619
+SKU0170,Ropa Hombre,Camisa,Camisa Studio 030,Otono,19.99,0.21,8.12,0.509
+SKU0171,Ropa Hombre,Camiseta,Camiseta Soft 031,Otono,22.99,0.21,6.52,0.657
+SKU0172,Ropa Hombre,Vaquero,Vaquero Soft 032,Otono,27.99,0.21,6.72,0.709
+SKU0173,Ropa Hombre,Abrigo,Abrigo Weekender 033,Verano,35.99,0.21,11.98,0.597
+SKU0174,Ropa Hombre,Camiseta,Camiseta Nordic 034,Otono,18.99,0.21,4.37,0.722
+SKU0175,Ropa Hombre,Camiseta,Camiseta Comfort 035,Otono,22.99,0.21,5.37,0.717
+SKU0176,Ropa Hombre,Camiseta,Camiseta Trend 036,Primavera,15.99,0.21,3.09,0.767
+SKU0177,Ropa Hombre,Vaquero,Vaquero Comfort 037,Todo el ano,42.99,0.21,8.8,0.752
+SKU0178,Ropa Hombre,Sudadera,Sudadera Heritage 038,Primavera,34.99,0.21,6.54,0.774
+SKU0179,Ropa Hombre,Jersey,Jersey Trend 039,Todo el ano,34.99,0.21,13.3,0.54
+SKU0180,Ropa Hombre,Camisa,Camisa Soft 040,Todo el ano,29.99,0.21,8.57,0.654
+SKU0181,Ropa Hombre,Camisa,Camisa Essential 041,Verano,26.99,0.21,6.05,0.729
+SKU0182,Ropa Hombre,Camiseta,Camiseta Studio 042,Primavera,22.99,0.21,2.95,0.845
+SKU0183,Ropa Hombre,Vaquero,Vaquero Soft 043,Otono,27.99,0.21,5.63,0.757
+SKU0184,Ropa Hombre,Pantalon,Pantalon Essential 044,Verano,34.99,0.21,10.95,0.621
+SKU0185,Ropa Hombre,Camisa,Camisa Comfort 045,Todo el ano,17.99,0.21,7.22,0.514
+SKU0186,Ropa Hombre,Abrigo,Abrigo Move 046,Otono,66.99,0.21,18.19,0.671
+SKU0187,Ropa Hombre,Camisa,Camisa Heritage 047,Todo el ano,34.99,0.21,9.75,0.663
+SKU0188,Ropa Hombre,Vaquero,Vaquero Basic 048,Todo el ano,44.99,0.21,13.23,0.644
+SKU0189,Ropa Hombre,Camiseta,Camiseta Essential 049,Primavera,20.99,0.21,8.16,0.53
+SKU0190,Ropa Hombre,Sudadera,Sudadera Urban 050,Otono,26.99,0.21,4.89,0.781
+SKU0191,Ropa Hombre,Sudadera,Sudadera Trend 051,Primavera,33.99,0.21,5.96,0.788
+SKU0192,Ropa Hombre,Sudadera,Sudadera Move 052,Todo el ano,16.99,0.21,5.19,0.63
+SKU0193,Ropa Hombre,Camiseta,Camiseta Urban 053,Otono,8.99,0.21,3.43,0.538
+SKU0194,Ropa Hombre,Camiseta,Camiseta Essential 054,Todo el ano,18.99,0.21,3.93,0.75
+SKU0195,Ropa Hombre,Pantalon,Pantalon Soft 055,Otono,35.99,0.21,5.86,0.803
+SKU0196,Ropa Hombre,Pantalon,Pantalon Soft 056,Otono,34.99,0.21,6.35,0.78
+SKU0197,Ropa Hombre,Sudadera,Sudadera Modern 057,Invierno,17.99,0.21,6.21,0.582
+SKU0198,Ropa Hombre,Camisa,Camisa Essential 058,Primavera,27.99,0.21,4.62,0.8
+SKU0199,Ropa Hombre,Camisa,Camisa Trend 059,Invierno,15.99,0.21,4.23,0.68
+SKU0200,Ropa Hombre,Sudadera,Sudadera Essential 060,Primavera,29.99,0.21,12.14,0.51
+SKU0201,Ropa Hombre,Sudadera,Sudadera Basic 061,Otono,23.99,0.21,3.7,0.813
+SKU0202,Ropa Hombre,Pantalon,Pantalon Urban 062,Otono,32.99,0.21,11.36,0.583
+SKU0203,Ropa Hombre,Camisa,Camisa Urban 063,Invierno,32.99,0.21,10.31,0.622
+SKU0204,Ropa Hombre,Pantalon,Pantalon Modern 064,Invierno,36.99,0.21,12.09,0.605
+SKU0205,Ropa Hombre,Camiseta,Camiseta Modern 065,Primavera,17.99,0.21,5.37,0.639
+SKU0206,Ropa Hombre,Sudadera,Sudadera Trend 066,Primavera,21.99,0.21,3.45,0.81
+SKU0207,Ropa Hombre,Sudadera,Sudadera Move 067,Verano,19.99,0.21,7.77,0.53
+SKU0208,Ropa Hombre,Pantalon,Pantalon Modern 068,Primavera,25.99,0.21,5.34,0.751
+SKU0209,Ropa Hombre,Camisa,Camisa Studio 069,Todo el ano,31.99,0.21,3.98,0.85
+SKU0210,Ropa Hombre,Camisa,Camisa Modern 070,Verano,21.99,0.21,6.49,0.643
+SKU0211,Ropa Hombre,Abrigo,Abrigo Weekender 071,Verano,40.99,0.21,10.12,0.701
+SKU0212,Ropa Hombre,Camisa,Camisa Basic 072,Otono,34.99,0.21,7.37,0.745
+SKU0213,Ropa Hombre,Camisa,Camisa Studio 073,Primavera,27.99,0.21,8.39,0.637
+SKU0214,Ropa Hombre,Pantalon,Pantalon Studio 074,Verano,38.99,0.21,10.51,0.674
+SKU0215,Ropa Hombre,Jersey,Jersey Nordic 075,Verano,20.99,0.21,6.46,0.628
+SKU0216,Ropa Hombre,Camisa,Camisa Nordic 076,Primavera,16.99,0.21,6.03,0.571
+SKU0217,Ropa Hombre,Sudadera,Sudadera Studio 077,Todo el ano,16.99,0.21,4.79,0.659
+SKU0218,Ropa Hombre,Camisa,Camisa Weekender 078,Todo el ano,27.99,0.21,8.79,0.62
+SKU0219,Ropa Hombre,Pantalon,Pantalon Move 079,Verano,26.99,0.21,3.66,0.836
+SKU0220,Ropa Hombre,Sudadera,Sudadera Soft 080,Verano,30.99,0.21,7.96,0.689
+SKU0221,Ropa Hombre,Abrigo,Abrigo Urban 081,Invierno,46.99,0.21,7.23,0.814
+SKU0222,Ropa Hombre,Vaquero,Vaquero Basic 082,Verano,26.99,0.21,8.61,0.614
+SKU0223,Ropa Hombre,Vaquero,Vaquero Move 083,Otono,42.99,0.21,11.18,0.685
+SKU0224,Ropa Hombre,Sudadera,Sudadera Weekender 084,Verano,30.99,0.21,7.51,0.707
+SKU0225,Ropa Hombre,Sudadera,Sudadera Essential 085,Verano,28.99,0.21,9.47,0.605
+SKU0226,Ropa Hombre,Jersey,Jersey Move 086,Primavera,22.99,0.21,7.36,0.613
+SKU0227,Ropa Hombre,Pantalon,Pantalon Weekender 087,Primavera,20.99,0.21,3.37,0.806
+SKU0228,Ropa Hombre,Jersey,Jersey Comfort 088,Verano,23.99,0.21,6.02,0.697
+SKU0229,Ropa Hombre,Sudadera,Sudadera Soft 089,Invierno,31.99,0.21,5.97,0.774
+SKU0230,Ropa Hombre,Camiseta,Camiseta Studio 090,Otono,14.99,0.21,4.13,0.667
+SKU0231,Ropa Hombre,Camiseta,Camiseta Soft 091,Verano,22.99,0.21,5.01,0.736
+SKU0232,Ropa Hombre,Jersey,Jersey Basic 092,Verano,33.99,0.21,5.17,0.816
+SKU0233,Ropa Hombre,Camiseta,Camiseta Weekender 093,Otono,20.99,0.21,7.55,0.565
+SKU0234,Ropa Hombre,Pantalon,Pantalon Essential 094,Primavera,30.99,0.21,11.89,0.536
+SKU0235,Ropa Hombre,Pantalon,Pantalon Essential 095,Otono,32.99,0.21,4.52,0.834
+SKU0236,Ropa Hombre,Camiseta,Camiseta Nordic 096,Todo el ano,15.99,0.21,4.6,0.652
+SKU0237,Ropa Hombre,Pantalon,Pantalon Weekender 097,Todo el ano,18.99,0.21,2.58,0.836
+SKU0238,Ropa Hombre,Abrigo,Abrigo Studio 098,Primavera,39.99,0.21,16.05,0.514
+SKU0239,Ropa Hombre,Camiseta,Camiseta Trend 099,Otono,11.99,0.21,4.73,0.523
+SKU0240,Ropa Hombre,Jersey,Jersey Urban 100,Todo el ano,26.99,0.21,7.12,0.681
+SKU0241,Ropa Hombre,Jersey,Jersey Essential 101,Primavera,24.99,0.21,9.96,0.518
+SKU0242,Ropa Hombre,Pantalon,Pantalon Trend 102,Todo el ano,19.99,0.21,6.04,0.635
+SKU0243,Ropa Hombre,Camiseta,Camiseta Weekender 103,Otono,9.99,0.21,2.11,0.744
+SKU0244,Ropa Hombre,Camisa,Camisa Move 104,Otono,19.99,0.21,6.51,0.606
+SKU0245,Ropa Hombre,Camiseta,Camiseta Weekender 105,Todo el ano,14.99,0.21,4.39,0.646
+SKU0246,Ropa Hombre,Pantalon,Pantalon Modern 106,Primavera,17.99,0.21,6.85,0.539
+SKU0247,Ropa Hombre,Vaquero,Vaquero Weekender 107,Todo el ano,41.99,0.21,17.34,0.5
+SKU0248,Ropa Hombre,Vaquero,Vaquero Soft 108,Otono,32.99,0.21,8.96,0.671
+SKU0249,Ropa Hombre,Jersey,Jersey Basic 109,Invierno,24.99,0.21,7.21,0.651
+SKU0250,Ropa Hombre,Pantalon,Pantalon Basic 110,Todo el ano,35.99,0.21,6.11,0.794
+SKU0251,Zapatos,Deportivo,Deportivo Modern 001,Verano,20.99,0.21,5.06,0.708
+SKU0252,Zapatos,Bota,Bota Studio 002,Invierno,33.99,0.21,5.45,0.806
+SKU0253,Zapatos,Deportivo,Deportivo Trend 003,Otono,27.99,0.21,6.62,0.714
+SKU0254,Zapatos,Sandalia,Sandalia Heritage 004,Otono,25.99,0.21,7.76,0.639
+SKU0255,Zapatos,Zapato casual,Zapato casual Nordic 005,Primavera,33.99,0.21,6.91,0.754
+SKU0256,Zapatos,Deportivo,Deportivo Move 006,Otono,37.99,0.21,7.36,0.765
+SKU0257,Zapatos,Bota,Bota Modern 007,Otono,59.99,0.21,17.51,0.647
+SKU0258,Zapatos,Zapatilla hogar,Zapatilla hogar Nordic 008,Invierno,14.99,0.21,6.14,0.504
+SKU0259,Zapatos,Deportivo,Deportivo Studio 009,Invierno,44.99,0.21,11.82,0.682
+SKU0260,Zapatos,Sandalia,Sandalia Move 010,Otono,22.99,0.21,8.87,0.533
+SKU0261,Zapatos,Zapato casual,Zapato casual Modern 011,Verano,37.99,0.21,11.36,0.638
+SKU0262,Zapatos,Deportivo,Deportivo Soft 012,Invierno,40.99,0.21,15.17,0.552
+SKU0263,Zapatos,Deportivo,Deportivo Nordic 013,Invierno,49.99,0.21,18.08,0.562
+SKU0264,Zapatos,Deportivo,Deportivo Nordic 014,Verano,26.99,0.21,4.45,0.801
+SKU0265,Zapatos,Zapatilla hogar,Zapatilla hogar Heritage 015,Todo el ano,19.99,0.21,7.03,0.574
+SKU0266,Zapatos,Deportivo,Deportivo Essential 016,Invierno,34.99,0.21,7.03,0.757
+SKU0267,Zapatos,Deportivo,Deportivo Modern 017,Primavera,46.99,0.21,14.27,0.633
+SKU0268,Zapatos,Deportivo,Deportivo Essential 018,Otono,35.99,0.21,7.15,0.76
+SKU0269,Zapatos,Deportivo,Deportivo Soft 019,Invierno,42.99,0.21,8.03,0.774
+SKU0270,Zapatos,Sandalia,Sandalia Heritage 020,Todo el ano,25.99,0.21,9.95,0.537
+SKU0271,Zapatos,Deportivo,Deportivo Nordic 021,Otono,47.99,0.21,7.82,0.803
+SKU0272,Zapatos,Sandalia,Sandalia Comfort 022,Invierno,30.99,0.21,11.91,0.535
+SKU0273,Zapatos,Sandalia,Sandalia Comfort 023,Verano,17.99,0.21,3.56,0.76
+SKU0274,Zapatos,Zapatilla hogar,Zapatilla hogar Modern 024,Invierno,8.99,0.21,1.17,0.843
+SKU0275,Zapatos,Deportivo,Deportivo Move 025,Verano,31.99,0.21,6.56,0.752
+SKU0276,Zapatos,Zapatilla hogar,Zapatilla hogar Nordic 026,Primavera,18.99,0.21,5.68,0.638
+SKU0277,Zapatos,Sandalia,Sandalia Essential 027,Todo el ano,20.99,0.21,4.98,0.713
+SKU0278,Zapatos,Deportivo,Deportivo Nordic 028,Todo el ano,37.99,0.21,11.2,0.643
+SKU0279,Zapatos,Zapato casual,Zapato casual Studio 029,Primavera,31.99,0.21,4.56,0.827
+SKU0280,Zapatos,Zapatilla hogar,Zapatilla hogar Soft 030,Otono,13.99,0.21,4.98,0.569
+SKU0281,Zapatos,Deportivo,Deportivo Soft 031,Verano,31.99,0.21,9.57,0.638
+SKU0282,Zapatos,Zapatilla hogar,Zapatilla hogar Urban 032,Primavera,9.99,0.21,3.66,0.557
+SKU0283,Zapatos,Bota,Bota Basic 033,Verano,49.99,0.21,15.75,0.619
+SKU0284,Zapatos,Sandalia,Sandalia Comfort 034,Todo el ano,34.99,0.21,11.99,0.585
+SKU0285,Zapatos,Zapatilla hogar,Zapatilla hogar Trend 035,Invierno,9.99,0.21,1.95,0.764
+SKU0286,Zapatos,Bota,Bota Weekender 036,Todo el ano,56.99,0.21,18.96,0.597
+SKU0287,Zapatos,Zapato casual,Zapato casual Soft 037,Invierno,22.99,0.21,8.26,0.565
+SKU0288,Zapatos,Bota,Bota Comfort 038,Invierno,43.99,0.21,12.22,0.664
+SKU0289,Zapatos,Zapato casual,Zapato casual Soft 039,Verano,23.99,0.21,9.6,0.516
+SKU0290,Zapatos,Sandalia,Sandalia Nordic 040,Primavera,23.99,0.21,3.26,0.836
+SKU0291,Zapatos,Deportivo,Deportivo Trend 041,Invierno,39.99,0.21,10.79,0.673
+SKU0292,Zapatos,Bota,Bota Soft 042,Verano,29.99,0.21,10.2,0.588
+SKU0293,Zapatos,Bota,Bota Move 043,Todo el ano,35.99,0.21,6.91,0.768
+SKU0294,Zapatos,Deportivo,Deportivo Comfort 044,Primavera,46.99,0.21,7.16,0.816
+SKU0295,Zapatos,Deportivo,Deportivo Modern 045,Verano,49.99,0.21,6.45,0.844
+SKU0296,Zapatos,Bota,Bota Trend 046,Invierno,58.99,0.21,23.15,0.525
+SKU0297,Zapatos,Deportivo,Deportivo Urban 047,Invierno,24.99,0.21,8.13,0.607
+SKU0298,Zapatos,Deportivo,Deportivo Nordic 048,Todo el ano,36.99,0.21,14.25,0.534
+SKU0299,Zapatos,Zapato casual,Zapato casual Modern 049,Todo el ano,36.99,0.21,8.69,0.716
+SKU0300,Zapatos,Zapato casual,Zapato casual Studio 050,Invierno,30.99,0.21,11.32,0.558
+SKU0301,Zapatos,Zapato casual,Zapato casual Heritage 051,Todo el ano,23.99,0.21,8.8,0.556
+SKU0302,Zapatos,Bota,Bota Weekender 052,Todo el ano,55.99,0.21,13.67,0.704
+SKU0303,Zapatos,Zapatilla hogar,Zapatilla hogar Comfort 053,Verano,17.99,0.21,5.89,0.604
+SKU0304,Zapatos,Sandalia,Sandalia Move 054,Invierno,21.99,0.21,6.51,0.642
+SKU0305,Zapatos,Deportivo,Deportivo Comfort 055,Otono,43.99,0.21,8.35,0.77
+SKU0306,Zapatos,Deportivo,Deportivo Soft 056,Otono,26.99,0.21,3.8,0.83
+SKU0307,Zapatos,Zapato casual,Zapato casual Modern 057,Invierno,20.99,0.21,3.23,0.814
+SKU0308,Zapatos,Deportivo,Deportivo Nordic 058,Verano,23.99,0.21,8.08,0.593
+SKU0309,Zapatos,Sandalia,Sandalia Essential 059,Invierno,31.99,0.21,11.56,0.563
+SKU0310,Zapatos,Zapatilla hogar,Zapatilla hogar Trend 060,Otono,13.99,0.21,3.96,0.657
+SKU0311,Zapatos,Deportivo,Deportivo Soft 061,Otono,27.99,0.21,5.82,0.749
+SKU0312,Zapatos,Deportivo,Deportivo Studio 062,Otono,45.99,0.21,7.37,0.806
+SKU0313,Zapatos,Zapatilla hogar,Zapatilla hogar Modern 063,Primavera,12.99,0.21,3.37,0.686
+SKU0314,Zapatos,Sandalia,Sandalia Urban 064,Verano,18.99,0.21,6.5,0.586
+SKU0315,Zapatos,Deportivo,Deportivo Soft 065,Invierno,25.99,0.21,3.67,0.829
+SKU0316,Zapatos,Zapatilla hogar,Zapatilla hogar Move 066,Verano,18.99,0.21,3.58,0.772
+SKU0317,Zapatos,Zapatilla hogar,Zapatilla hogar Move 067,Verano,14.99,0.21,4.07,0.672
+SKU0318,Zapatos,Sandalia,Sandalia Trend 068,Invierno,24.99,0.21,6.45,0.688
+SKU0319,Zapatos,Sandalia,Sandalia Weekender 069,Otono,22.99,0.21,8.62,0.546
+SKU0320,Zapatos,Deportivo,Deportivo Modern 070,Invierno,24.99,0.21,3.44,0.833
+SKU0321,Zapatos,Deportivo,Deportivo Weekender 071,Primavera,34.99,0.21,4.81,0.834
+SKU0322,Zapatos,Sandalia,Sandalia Soft 072,Invierno,16.99,0.21,4.3,0.694
+SKU0323,Zapatos,Bota,Bota Weekender 073,Todo el ano,32.99,0.21,11.22,0.589
+SKU0324,Zapatos,Zapato casual,Zapato casual Move 074,Primavera,18.99,0.21,7.19,0.542
+SKU0325,Zapatos,Zapatilla hogar,Zapatilla hogar Heritage 075,Invierno,19.99,0.21,6.4,0.613
+SKU0326,Complementos,Bisuteria,Bisuteria Comfort 001,Primavera,11.99,0.21,1.8,0.819
+SKU0327,Complementos,Gorra,Gorra Studio 002,Otono,8.99,0.21,2.31,0.69
+SKU0328,Complementos,Gorra,Gorra Weekender 003,Invierno,12.99,0.21,1.79,0.834
+SKU0329,Complementos,Bisuteria,Bisuteria Modern 004,Todo el ano,10.99,0.21,3.73,0.589
+SKU0330,Complementos,Cinturon,Cinturon Heritage 005,Verano,12.99,0.21,4.16,0.612
+SKU0331,Complementos,Mochila,Mochila Comfort 006,Verano,29.99,0.21,8.93,0.64
+SKU0332,Complementos,Calcetin,Calcetin Essential 007,Invierno,8.99,0.21,3.65,0.508
+SKU0333,Complementos,Calcetin,Calcetin Comfort 008,Primavera,6.99,0.21,1.12,0.806
+SKU0334,Complementos,Gorra,Gorra Weekender 009,Otono,11.99,0.21,3.41,0.655
+SKU0335,Complementos,Bolso,Bolso Nordic 010,Invierno,28.99,0.21,4.82,0.799
+SKU0336,Complementos,Mochila,Mochila Move 011,Verano,18.99,0.21,4.86,0.691
+SKU0337,Complementos,Bufanda,Bufanda Comfort 012,Verano,11.99,0.21,2.76,0.721
+SKU0338,Complementos,Bolso,Bolso Heritage 013,Todo el ano,16.99,0.21,5.82,0.585
+SKU0339,Complementos,Bufanda,Bufanda Basic 014,Invierno,17.99,0.21,2.63,0.823
+SKU0340,Complementos,Calcetin,Calcetin Heritage 015,Todo el ano,9.99,0.21,1.3,0.842
+SKU0341,Complementos,Bisuteria,Bisuteria Nordic 016,Primavera,12.99,0.21,2.49,0.768
+SKU0342,Complementos,Calcetin,Calcetin Trend 017,Invierno,8.99,0.21,2.47,0.668
+SKU0343,Complementos,Calcetin,Calcetin Urban 018,Invierno,6.99,0.21,2.4,0.584
+SKU0344,Complementos,Cinturon,Cinturon Urban 019,Primavera,12.99,0.21,4.28,0.601
+SKU0345,Complementos,Mochila,Mochila Essential 020,Invierno,17.99,0.21,4.38,0.705
+SKU0346,Complementos,Gorra,Gorra Studio 021,Verano,9.99,0.21,3.5,0.577
+SKU0347,Complementos,Bisuteria,Bisuteria Comfort 022,Otono,13.99,0.21,2.3,0.801
+SKU0348,Complementos,Bolso,Bolso Studio 023,Invierno,13.99,0.21,5.75,0.503
+SKU0349,Complementos,Mochila,Mochila Essential 024,Invierno,18.99,0.21,3.47,0.779
+SKU0350,Complementos,Bufanda,Bufanda Essential 025,Primavera,16.99,0.21,6.34,0.548
+SKU0351,Complementos,Bolso,Bolso Comfort 026,Primavera,25.99,0.21,9.87,0.54
+SKU0352,Complementos,Gorra,Gorra Move 027,Todo el ano,9.99,0.21,1.24,0.85
+SKU0353,Complementos,Bolso,Bolso Basic 028,Otono,14.99,0.21,5.53,0.554
+SKU0354,Complementos,Bolso,Bolso Soft 029,Primavera,18.99,0.21,4.44,0.717
+SKU0355,Complementos,Bisuteria,Bisuteria Nordic 030,Primavera,14.99,0.21,1.94,0.843
+SKU0356,Complementos,Bufanda,Bufanda Basic 031,Verano,6.99,0.21,2.61,0.548
+SKU0357,Complementos,Mochila,Mochila Soft 032,Primavera,26.99,0.21,9.04,0.595
+SKU0358,Complementos,Bufanda,Bufanda Heritage 033,Verano,16.99,0.21,3.76,0.732
+SKU0359,Complementos,Calcetin,Calcetin Soft 034,Verano,4.99,0.21,0.86,0.791
+SKU0360,Complementos,Gorra,Gorra Comfort 035,Primavera,7.99,0.21,2.32,0.648
+SKU0361,Complementos,Bisuteria,Bisuteria Heritage 036,Verano,10.99,0.21,2.95,0.675
+SKU0362,Complementos,Bisuteria,Bisuteria Comfort 037,Otono,11.99,0.21,2.69,0.728
+SKU0363,Complementos,Gorra,Gorra Studio 038,Verano,14.99,0.21,1.86,0.85
+SKU0364,Complementos,Mochila,Mochila Heritage 039,Todo el ano,22.99,0.21,8.87,0.533
+SKU0365,Complementos,Bufanda,Bufanda Move 040,Primavera,14.99,0.21,1.96,0.842
+SKU0366,Complementos,Cinturon,Cinturon Urban 041,Otono,9.99,0.21,2.8,0.661
+SKU0367,Complementos,Bisuteria,Bisuteria Trend 042,Todo el ano,8.99,0.21,3.58,0.518
+SKU0368,Complementos,Calcetin,Calcetin Basic 043,Otono,7.99,0.21,2.49,0.624
+SKU0369,Complementos,Bolso,Bolso Heritage 044,Invierno,25.99,0.21,4.48,0.791
+SKU0370,Complementos,Gorra,Gorra Weekender 045,Verano,13.99,0.21,4.09,0.646
+SKU0371,Complementos,Mochila,Mochila Trend 046,Todo el ano,18.99,0.21,3.73,0.762
+SKU0372,Complementos,Calcetin,Calcetin Move 047,Verano,8.99,0.21,2.44,0.672
+SKU0373,Complementos,Mochila,Mochila Trend 048,Otono,28.99,0.21,10.77,0.55
+SKU0374,Complementos,Bisuteria,Bisuteria Nordic 049,Todo el ano,13.99,0.21,5.39,0.534
+SKU0375,Complementos,Bisuteria,Bisuteria Trend 050,Todo el ano,5.99,0.21,1.55,0.687
+SKU0376,Complementos,Bufanda,Bufanda Basic 051,Otono,6.99,0.21,2.78,0.518
+SKU0377,Complementos,Mochila,Mochila Modern 052,Invierno,13.99,0.21,4.02,0.653
+SKU0378,Complementos,Bufanda,Bufanda Nordic 053,Otono,15.99,0.21,6.45,0.512
+SKU0379,Complementos,Calcetin,Calcetin Trend 054,Todo el ano,7.99,0.21,1.4,0.788
+SKU0380,Complementos,Gorra,Gorra Nordic 055,Otono,7.99,0.21,2.96,0.551
+SKU0381,Complementos,Bisuteria,Bisuteria Basic 056,Invierno,13.99,0.21,2.45,0.788
+SKU0382,Complementos,Calcetin,Calcetin Comfort 057,Primavera,7.99,0.21,1.41,0.787
+SKU0383,Complementos,Bisuteria,Bisuteria Weekender 058,Otono,5.99,0.21,1.79,0.638
+SKU0384,Complementos,Mochila,Mochila Nordic 059,Invierno,25.99,0.21,8.8,0.59
+SKU0385,Complementos,Gorra,Gorra Move 060,Verano,13.99,0.21,3.74,0.676
+SKU0386,Complementos,Bisuteria,Bisuteria Weekender 061,Verano,12.99,0.21,3.62,0.663
+SKU0387,Complementos,Bufanda,Bufanda Move 062,Todo el ano,10.99,0.21,3.84,0.577
+SKU0388,Complementos,Gorra,Gorra Nordic 063,Otono,8.99,0.21,1.76,0.763
+SKU0389,Complementos,Gorra,Gorra Heritage 064,Todo el ano,7.99,0.21,3.1,0.53
+SKU0390,Complementos,Bolso,Bolso Comfort 065,Invierno,13.99,0.21,5.07,0.561
+SKU0391,Complementos,Bolso,Bolso Weekender 066,Todo el ano,26.99,0.21,8.04,0.639
+SKU0392,Complementos,Bisuteria,Bisuteria Essential 067,Otono,14.99,0.21,5.6,0.548
+SKU0393,Complementos,Bisuteria,Bisuteria Soft 068,Primavera,11.99,0.21,3.4,0.657
+SKU0394,Complementos,Bisuteria,Bisuteria Essential 069,Invierno,8.99,0.21,1.44,0.806
+SKU0395,Complementos,Bolso,Bolso Soft 070,Invierno,29.99,0.21,4.82,0.806
+SKU0396,Complementos,Bufanda,Bufanda Heritage 071,Todo el ano,7.99,0.21,2.79,0.577
+SKU0397,Complementos,Cinturon,Cinturon Nordic 072,Invierno,12.99,0.21,4.28,0.601
+SKU0398,Complementos,Calcetin,Calcetin Studio 073,Primavera,8.99,0.21,2.24,0.698
+SKU0399,Complementos,Mochila,Mochila Comfort 074,Otono,22.99,0.21,3.99,0.79
+SKU0400,Complementos,Cinturon,Cinturon Urban 075,Invierno,13.99,0.21,5.67,0.509
+SKU0401,Complementos,Bisuteria,Bisuteria Soft 076,Otono,4.99,0.21,1.19,0.711
+SKU0402,Complementos,Bolso,Bolso Essential 077,Otono,19.99,0.21,6.76,0.591
+SKU0403,Complementos,Cinturon,Cinturon Essential 078,Todo el ano,10.99,0.21,2.13,0.765
+SKU0404,Complementos,Bolso,Bolso Move 079,Otono,26.99,0.21,6.77,0.696
+SKU0405,Complementos,Bufanda,Bufanda Modern 080,Primavera,10.99,0.21,3.68,0.595
+SKU0406,Home,Decoracion,Decoracion Modern 001,Verano,24.99,0.21,7.57,0.633
+SKU0407,Home,Manta,Manta Trend 002,Verano,18.99,0.21,4.64,0.705
+SKU0408,Home,Decoracion,Decoracion Move 003,Invierno,8.99,0.21,2.88,0.612
+SKU0409,Home,Decoracion,Decoracion Comfort 004,Todo el ano,9.99,0.21,3.83,0.536
+SKU0410,Home,Cojin,Cojin Soft 005,Invierno,18.99,0.21,4.61,0.706
+SKU0411,Home,Cojin,Cojin Nordic 006,Invierno,11.99,0.21,3.54,0.643
+SKU0412,Home,Manta,Manta Comfort 007,Primavera,18.99,0.21,4.37,0.722
+SKU0413,Home,Almacenaje,Almacenaje Trend 008,Otono,19.99,0.21,2.87,0.826
+SKU0414,Home,Decoracion,Decoracion Soft 009,Invierno,13.99,0.21,4.45,0.615
+SKU0415,Home,Cojin,Cojin Move 010,Verano,13.99,0.21,3.48,0.699
+SKU0416,Home,Almacenaje,Almacenaje Essential 011,Todo el ano,12.99,0.21,2.89,0.731
+SKU0417,Home,Vela,Vela Studio 012,Invierno,9.99,0.21,3.2,0.612
+SKU0418,Home,Vela,Vela Modern 013,Todo el ano,7.99,0.21,2.43,0.633
+SKU0419,Home,Almacenaje,Almacenaje Studio 014,Invierno,6.99,0.21,2.55,0.558
+SKU0420,Home,Cojin,Cojin Move 015,Todo el ano,16.99,0.21,5.11,0.636
+SKU0421,Home,Manta,Manta Studio 016,Otono,14.99,0.21,3.75,0.697
+SKU0422,Home,Decoracion,Decoracion Move 017,Invierno,20.99,0.21,7.11,0.59
+SKU0423,Home,Manta,Manta Essential 018,Otono,26.99,0.21,3.91,0.825
+SKU0424,Home,Decoracion,Decoracion Essential 019,Verano,17.99,0.21,3.95,0.734
+SKU0425,Home,Manta,Manta Trend 020,Verano,11.99,0.21,1.68,0.831
+SKU0426,Home,Cojin,Cojin Studio 021,Primavera,12.99,0.21,1.9,0.823
+SKU0427,Home,Manta,Manta Move 022,Todo el ano,21.99,0.21,9.06,0.502
+SKU0428,Home,Vela,Vela Move 023,Verano,4.99,0.21,1.08,0.738
+SKU0429,Home,Cojin,Cojin Soft 024,Verano,14.99,0.21,6.08,0.509
+SKU0430,Home,Cojin,Cojin Move 025,Invierno,16.99,0.21,2.83,0.798
+SKU0431,Home,Textil cama,Textil cama Essential 026,Todo el ano,26.99,0.21,7.52,0.663
+SKU0432,Home,Manta,Manta Modern 027,Todo el ano,10.99,0.21,2.04,0.775
+SKU0433,Home,Vela,Vela Essential 028,Primavera,7.99,0.21,1.27,0.808
+SKU0434,Home,Cojin,Cojin Soft 029,Otono,12.99,0.21,3.24,0.698
+SKU0435,Home,Vela,Vela Soft 030,Otono,6.99,0.21,2.56,0.556
+SKU0436,Home,Manta,Manta Urban 031,Otono,25.99,0.21,7.01,0.674
+SKU0437,Home,Decoracion,Decoracion Basic 032,Todo el ano,16.99,0.21,2.28,0.838
+SKU0438,Home,Manta,Manta Urban 033,Otono,29.99,0.21,4.97,0.799
+SKU0439,Home,Almacenaje,Almacenaje Basic 034,Primavera,8.99,0.21,2.17,0.708
+SKU0440,Home,Almacenaje,Almacenaje Modern 035,Otono,18.99,0.21,5.79,0.631
+SKU0441,Home,Cojin,Cojin Move 036,Verano,8.99,0.21,1.61,0.784
+SKU0442,Home,Cojin,Cojin Nordic 037,Invierno,13.99,0.21,3.5,0.698
+SKU0443,Home,Cojin,Cojin Trend 038,Primavera,19.99,0.21,4.75,0.713
+SKU0444,Home,Decoracion,Decoracion Heritage 039,Otono,14.99,0.21,4.59,0.629
+SKU0445,Home,Cojin,Cojin Comfort 040,Invierno,12.99,0.21,4.92,0.541
+SKU0446,Home,Textil cama,Textil cama Comfort 041,Otono,34.99,0.21,5.98,0.793
+SKU0447,Home,Textil cama,Textil cama Urban 042,Primavera,20.99,0.21,6.83,0.606
+SKU0448,Home,Textil cama,Textil cama Essential 043,Invierno,36.99,0.21,15.03,0.508
+SKU0449,Home,Decoracion,Decoracion Trend 044,Primavera,16.99,0.21,4.74,0.662
+SKU0450,Home,Almacenaje,Almacenaje Weekender 045,Invierno,15.99,0.21,5.85,0.557
+SKU0451,Home,Cojin,Cojin Trend 046,Todo el ano,15.99,0.21,4.86,0.632
+SKU0452,Home,Vela,Vela Nordic 047,Primavera,9.99,0.21,4.01,0.514
+SKU0453,Home,Manta,Manta Urban 048,Verano,19.99,0.21,5.24,0.683
+SKU0454,Home,Almacenaje,Almacenaje Heritage 049,Otono,8.99,0.21,3.35,0.549
+SKU0455,Home,Decoracion,Decoracion Trend 050,Verano,9.99,0.21,3.13,0.62
+SKU0456,Home,Textil cama,Textil cama Trend 051,Todo el ano,15.99,0.21,2.23,0.832
+SKU0457,Home,Cojin,Cojin Weekender 052,Todo el ano,12.99,0.21,2.33,0.783
+SKU0458,Home,Almacenaje,Almacenaje Heritage 053,Todo el ano,19.99,0.21,7.79,0.528
+SKU0459,Home,Vela,Vela Soft 054,Todo el ano,10.99,0.21,1.77,0.805
+SKU0460,Home,Vela,Vela Weekender 055,Invierno,9.99,0.21,2.89,0.65
+SKU0461,Interior,Slip,Slip Comfort 001,Otono,9.99,0.21,2.36,0.714
+SKU0462,Interior,Pijama,Pijama Heritage 002,Invierno,12.99,0.21,4.78,0.555
+SKU0463,Interior,Slip,Slip Essential 003,Todo el ano,5.99,0.21,0.78,0.842
+SKU0464,Interior,Pack basicos,Pack basicos Heritage 004,Primavera,7.99,0.21,2.11,0.681
+SKU0465,Interior,Pack basicos,Pack basicos Heritage 005,Primavera,14.99,0.21,1.96,0.842
+SKU0466,Interior,Pijama,Pijama Soft 006,Verano,16.99,0.21,6.78,0.517
+SKU0467,Interior,Camison,Camison Essential 007,Primavera,12.99,0.21,5.13,0.522
+SKU0468,Interior,Sujetador,Sujetador Urban 008,Verano,10.99,0.21,2.73,0.699
+SKU0469,Interior,Pack basicos,Pack basicos Urban 009,Todo el ano,14.99,0.21,3.86,0.688
+SKU0470,Interior,Pijama,Pijama Trend 010,Verano,23.99,0.21,8.51,0.571
+SKU0471,Interior,Pack basicos,Pack basicos Basic 011,Invierno,13.99,0.21,3.28,0.716
+SKU0472,Interior,Pack basicos,Pack basicos Comfort 012,Todo el ano,13.99,0.21,1.94,0.832
+SKU0473,Interior,Pijama,Pijama Comfort 013,Otono,18.99,0.21,7.35,0.532
+SKU0474,Interior,Pijama,Pijama Basic 014,Verano,16.99,0.21,4.87,0.653
+SKU0475,Interior,Pack basicos,Pack basicos Essential 015,Otono,14.99,0.21,4.55,0.632
+SKU0476,Interior,Pijama,Pijama Move 016,Invierno,26.99,0.21,6.93,0.689
+SKU0477,Interior,Slip,Slip Trend 017,Verano,5.99,0.21,1.92,0.612
+SKU0478,Interior,Pack basicos,Pack basicos Essential 018,Todo el ano,11.99,0.21,2.62,0.735
+SKU0479,Interior,Bata,Bata Nordic 019,Verano,20.99,0.21,7.29,0.58
+SKU0480,Interior,Slip,Slip Weekender 020,Primavera,8.99,0.21,3.28,0.559
+SKU0481,Interior,Slip,Slip Modern 021,Verano,9.99,0.21,3.59,0.566
+SKU0482,Interior,Pijama,Pijama Nordic 022,Verano,14.99,0.21,4.04,0.674
+SKU0483,Interior,Pack basicos,Pack basicos Essential 023,Verano,10.99,0.21,2.93,0.678
+SKU0484,Interior,Sujetador,Sujetador Trend 024,Primavera,13.99,0.21,1.76,0.848
+SKU0485,Interior,Pijama,Pijama Urban 025,Otono,20.99,0.21,5.77,0.667
+SKU0486,Interior,Sujetador,Sujetador Heritage 026,Todo el ano,13.99,0.21,5.51,0.523
+SKU0487,Interior,Pack basicos,Pack basicos Essential 027,Invierno,11.99,0.21,4.16,0.58
+SKU0488,Interior,Pijama,Pijama Trend 028,Invierno,23.99,0.21,9.56,0.518
+SKU0489,Interior,Pack basicos,Pack basicos Move 029,Otono,14.99,0.21,4.16,0.664
+SKU0490,Interior,Camison,Camison Move 030,Invierno,23.99,0.21,6.61,0.666
+SKU0491,Interior,Pack basicos,Pack basicos Essential 031,Todo el ano,5.99,0.21,1.05,0.788
+SKU0492,Interior,Pack basicos,Pack basicos Modern 032,Invierno,11.99,0.21,2.24,0.774
+SKU0493,Interior,Pack basicos,Pack basicos Comfort 033,Primavera,9.99,0.21,2.28,0.723
+SKU0494,Interior,Pack basicos,Pack basicos Heritage 034,Primavera,13.99,0.21,3.23,0.721
+SKU0495,Interior,Pijama,Pijama Weekender 035,Otono,18.99,0.21,4.21,0.732
+SKU0496,Interior,Pack basicos,Pack basicos Heritage 036,Otono,11.99,0.21,1.62,0.836
+SKU0497,Interior,Bata,Bata Basic 037,Primavera,19.99,0.21,5.8,0.649
+SKU0498,Interior,Bata,Bata Soft 038,Todo el ano,27.99,0.21,7.47,0.677
+SKU0499,Interior,Pack basicos,Pack basicos Heritage 039,Primavera,12.99,0.21,3.64,0.661
+SKU0500,Interior,Pack basicos,Pack basicos Nordic 040,Otono,7.99,0.21,1.58,0.761
+SKU0501,Interior,Camison,Camison Heritage 041,Primavera,12.99,0.21,4.62,0.57
+SKU0502,Interior,Slip,Slip Urban 042,Invierno,8.99,0.21,1.77,0.762
+SKU0503,Interior,Slip,Slip Modern 043,Invierno,9.99,0.21,3.34,0.595
+SKU0504,Interior,Slip,Slip Essential 044,Verano,4.99,0.21,0.68,0.835
+SKU0505,Interior,Sujetador,Sujetador Heritage 045,Invierno,10.99,0.21,3.91,0.569
+SKU0506,Interior,Slip,Slip Nordic 046,Invierno,5.99,0.21,1.56,0.685
+SKU0507,Interior,Pijama,Pijama Trend 047,Invierno,28.99,0.21,5.6,0.766
+SKU0508,Interior,Pijama,Pijama Studio 048,Invierno,24.99,0.21,9.06,0.561
+SKU0509,Interior,Camison,Camison Studio 049,Otono,15.99,0.21,4.39,0.667
+SKU0510,Interior,Slip,Slip Nordic 050,Primavera,5.99,0.21,2.0,0.596
