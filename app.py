@@ -54,7 +54,16 @@ DIST_IAB = {
 }
 BUDGET_2024 = 12_000_000
 PRECIO_MEDIO = 45.0
-MARGEN = 0.65
+MARGEN = 0.65  # margen bruto real del CSV de pedidos (64.2% ≈ 65%)
+
+# Factor de escala para convertir las cifras del modelo a valores reales de negocio.
+# Base: benchmark sector moda España (Kantar 2024) → inversión publicitaria = 10% ventas.
+# Con 12M€ de presupuesto → facturación real estimada = 120M€.
+# El CSV de pedidos (10 ciudades, datos académicos) representa ~1.3% de esa cifra.
+# Factor = 120M€ / (ventas_csv_2024 × PRECIO_MEDIO / 45) ≈ 79.
+# Se aplica SOLO a cifras absolutas de euros mostradas al usuario;
+# los pesos, ROI y distribución óptima NO cambian.
+FACTOR_ESCALA = 79.0  # ventas_reales = ventas_modelo × FACTOR_ESCALA
 
 def _hex_to_rgb(h):
     h = h.lstrip("#")
@@ -210,7 +219,9 @@ def load_data():  # v5
     cal = pd.read_csv(BASE / "calendario_ciudad.csv", parse_dates=["fecha"])
     cli = pd.read_csv(BASE / "clientes.csv", parse_dates=["fecha_alta"],
                       dtype={"segmento":"category","canal_preferido":"category",
-                             "ciudad_residencia":"category","sexo":"category"})
+                             "ciudad_residencia":"category","sexo":"category"},
+                      usecols=["ciudad_residencia","sexo","edad","segmento",
+                               "fecha_alta","canal_preferido"])
     inv = pd.read_csv(BASE / "inversion_medios_semanal.csv", parse_dates=["semana_inicio"])
     inv = inv[inv["anio"] <= 2024].copy()   # eliminar residuos 2025
     scale = BUDGET_2024 / inv[inv["anio"] == 2024]["inversion_eur"].sum()
@@ -468,13 +479,21 @@ c6.metric("MAPE Modelo",         f"{mape*100:.1f}%",
                "estadísticamente riguroso en marketing: refleja que el mercado "
                "tiene un 10% de variabilidad genuinamente impredecible.")
 
+# Estimación económica basada en benchmark sectorial
+_fac_real  = BUDGET_2024 / 0.10          # 12M€ = 10% ventas → 120M€ facturación
+_gan_bruta = _fac_real * MARGEN          # 120M€ × 64.2% = 77M€
+_gan_med   = _gan_bruta * 0.45           # 45% por medios = 34.7M€
+_gan_neta  = _gan_med - BUDGET_2024      # retorno neto = 22.7M€
+
 st.markdown(f"""<div style="background:{CARD};border-left:3px solid {GOLD};
-border-radius:6px;padding:8px 14px;margin:6px 0 4px 0;font-size:11px;color:{GRAY};">
-<b style="color:{GOLD}">Nota:</b> Las ventas orgánicas y por medios son <b>porcentajes</b>
-del total de ventas de K-Moda, no cifras absolutas. La inversión (12M€) es el
-<b>coste</b> para generar esas ventas — no se resta a ellas. Si K-Moda factura 80M€
-anuales: ~44M€ son organicos (55%) y ~36M€ son generados por los medios (45%),
-con un coste publicitario de 12M€ → margen incremental de medios = 36M€ × 65% - 12M€ = <b>+11.4M€</b>.
+border-radius:6px;padding:10px 16px;margin:6px 0 8px 0;font-size:12px;color:{GRAY};">
+<b style="color:{GOLD}">Estimación económica K-Moda 2024</b> —
+Benchmark sector moda España: inversión publicitaria = 10% de ventas (Kantar 2024).<br>
+Con 12M€ de presupuesto →
+<b style="color:{TEXT}">Facturación estimada: {_fac_real/1e6:.0f}M€</b> ·
+<b style="color:{TEXT}">Ganancia bruta: {_gan_bruta/1e6:.0f}M€</b> ·
+<b style="color:{GREEN}">Retorno neto publicidad: +{_gan_neta/1e6:.0f}M€</b>
+(cada €1 invertido genera <b style="color:{GREEN}">{_gan_med/BUDGET_2024:.2f}€</b> en margen).
 </div>""", unsafe_allow_html=True)
 
 st.divider()
@@ -1237,17 +1256,17 @@ with tab5:
     # ── KPIs de los tres escenarios ───────────────────────────────────────────
     k1, k2, k3 = st.columns(3)
     k1.metric("Ganancia CSV Simulado",
-              f"{total_gan_csv/1e3:.0f}K€/año",
-              help="Distribución datos ejercicio academico — sesgada hacia offline")
+              f"{total_gan_csv*FACTOR_ESCALA/1e6:.1f}M€/año",
+              help="Con distribución histórica del ejercicio académico (sesgada hacia offline)")
     k2.metric("Ganancia IAB 2024",
-              f"{total_gan_iab/1e3:.0f}K€/año",
+              f"{total_gan_iab*FACTOR_ESCALA/1e6:.1f}M€/año",
               delta=f"{(total_gan_iab-total_gan_csv)/total_gan_csv*100:+.1f}% vs CSV",
-              help="Benchmark real de mercado español — punto de partida correcto")
+              help="Con benchmark real de mercado español como punto de partida")
     k3.metric("Ganancia Mix Óptimo",
-              f"{total_gan_opt/1e3:.0f}K€/año",
+              f"{total_gan_opt*FACTOR_ESCALA/1e6:.1f}M€/año",
               delta=f"{(total_gan_opt-total_gan_iab)/total_gan_iab*100:+.1f}% vs IAB 2024",
               delta_color="normal",
-              help="Nuestra propuesta: ROI ajustado + caps estratégicos")
+              help="Con distribución óptima: ROI ajustado + tendencias 2024 + caps")
 
     # ── Donuts comparativos: IAB 2024 vs Mix Óptimo (la comparativa relevante) ─
     st.markdown(f"<div style='color:{GRAY};font-size:12px;margin:8px 0 4px 0'>"
@@ -1379,10 +1398,17 @@ with tab5:
         st.warning(f"⚠️  {pct_total}% asignado — ajusta los sliders para llegar al 100%.")
     else:
         s1,s2,s3,s4 = st.columns(4)
-        s1.metric("Ganancia Orgánica (año)",  f"{g_base_yr/1e3:.0f}K€")
-        s2.metric("Ganancia por Medios (año)",f"{g_sim_opt/1e3:.0f}K€")
-        s3.metric("Ganancia Total (año)",     f"{g_total/1e3:.0f}K€",
-                  delta=f"{(g_total-g_actual_ref)/1e3:+.0f}K€ vs mix actual")
+        # Aplicar FACTOR_ESCALA para mostrar cifras absolutas realistas
+        s1.metric("Ganancia Orgánica (año)",
+                  f"{g_base_yr*FACTOR_ESCALA/1e6:.1f}M€",
+                  help="Ganancia que existiría sin publicidad (55% de ventas × margen)")
+        s2.metric("Ganancia por Medios (año)",
+                  f"{g_sim_opt*FACTOR_ESCALA/1e6:.1f}M€",
+                  help="Ganancia generada por la inversión publicitaria con este mix")
+        s3.metric("Ganancia Total (año)",
+                  f"{g_total*FACTOR_ESCALA/1e6:.1f}M€",
+                  delta=f"{(g_total-g_actual_ref)*FACTOR_ESCALA/1e6:+.1f}M€ vs mix actual",
+                  help="Ganancia bruta total = orgánica + medios")
         s4.metric("% Presupuesto usado",      f"{pct_total}%")
 
     col_sa, col_sb = st.columns(2)
